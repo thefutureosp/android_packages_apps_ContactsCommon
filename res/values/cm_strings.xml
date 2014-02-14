@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2010 The Android Open Source Project
+<!--
+     Copyright (C) 2014 The CyanogenMod Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -13,8 +14,8 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-
-<transition xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/list_pressed_holo_light"  />
-    <item android:drawable="@drawable/list_longpressed_holo_light"  />
-</transition>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Virtual local storage account name -->
+    <string name="local_storage_account" product="tablet">Local tablet account</string>
+    <string name="local_storage_account" product="default">Local phone account</string>
+</resources>
